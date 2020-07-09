@@ -9,9 +9,12 @@ from keras import layers
 import numpy as np
 from six.moves import range
 
+#chhhahhcnnahcneegeee
+#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee
+#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee
 
-<<<<<<< HEAD
-#ㅁㄴㅇㅁㄴㅇㄴㅁㄴㅁㅇㅁㄴㅇㅁㄴㅇㄴㅇㄴㅁ
+
+
 
 
 
@@ -37,13 +40,8 @@ class CharacterTable(object):
         if calc_argmax:
             x = x.argmax(axis=-1)
         return ''.join(self.indices_char[x] for x in x)
-<<<<<<< HEAD
+                # printing like a b c ...
 
-        #ㅁㄴㅇㅁㄴㅇㄴㅁㄴㅁㅇㅁㄴㅇㅁㄴㅇㄴㅇㄴㅁ#ㅁㄴㅇㅁㄴㅇㄴㅁㄴㅁㅇㅁㄴㅇㅁㄴㅇㄴㅇㄴㅁ#ㅁㄴㅇㅁㄴㅇㄴㅁㄴㅁㅇㅁㄴㅇㅁㄴㅇㄴㅇㄴㅁ                # printing like a b c ...
-
-
-
-#ㅁㄴㅇㅁㄴㅇㄴㅁㄴㅁㅇㅁㄴㅇㅁㄴㅇㄴㅇㄴㅁ
 
 class colors:
     # color print on terminal, ANSI Escape Sequence
@@ -183,3 +181,6 @@ for iteration in range(1, 200):
         else:
             print(colors.fail + '☒' + colors.close, end=' ')
             print(guess)
+
+
+#chhhahhcnnahcneegeee#chhhahhcnnahcneegeee
